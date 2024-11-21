@@ -30,13 +30,13 @@ The Required Information to generate a new PDF_OVERLAY File:\
 (5) **NIC Number**\
 (6) **Birth Day**\
 (7) **Date of Join**\
-(8) **Basic Salary**\
+(8) **Basic Salary**
 
 When it extracts data from a file, It considers these arguments:\
 (1) **File** Name of the related .xlsx file.\
 (2) **Sheet** The relevant sheet name.\
 (3) **PrimeryKey** The primery key column name.\
-(4) **Value** The column name for the value we want.\
+(4) **Value** The column name for the value we want.
 
 PDF_OVERLAY supports six types of params:\
 (1) **X** (compulsory) can be given in pixels (875), inches (2.34in), or millimeters (34mm)\
