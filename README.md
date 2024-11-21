@@ -33,10 +33,10 @@ The Required Information to generate a new PDF_OVERLAY File:\
 (8) **Basic Salary**
 
 When it extracts data from a file, It considers these arguments:\
-(1) **File** Name of the related .xlsx file.\
-(2) **Sheet** The relevant sheet name.\
-(3) **PrimeryKey** The primery key column name.\
-(4) **Value** The column name for the value we want.
+(1) **File**  Name of the related .xlsx file.\
+(2) **Sheet**  The relevant sheet name.\
+(3) **PrimeryKey**  The primery key column name.\
+(4) **Value**  The column name for the value we want.
 
 PDF_OVERLAY supports six types of params:\
 (1) **X** (compulsory) can be given in pixels (875), inches (2.34in), or millimeters (34mm)\
@@ -44,7 +44,7 @@ PDF_OVERLAY supports six types of params:\
 (3) **Font** (optional, if not specified will be set to default = "Helvetica")\
 (4) **FontSize** (optional, if not specified will be set to default = 12)\
 (5) **LineSpace** (optional, if not specified will be set to default = 1.2X)\
-(6) **Function** (optional, if not specified will be set to default = None)\
+(6) **Function** (optional, if not specified will be set to default = None)
 
 Param Functions are executed when overlaying the content. Supported functions are below.\
 (1) **SrinkToFit(width ,maxLines)**
